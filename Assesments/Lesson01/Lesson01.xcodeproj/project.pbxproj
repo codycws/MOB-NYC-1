@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55991C4C1A37FAD000563C8D /* cody.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55991C4B1A37FAD000563C8D /* cody.jpg */; };
+		55991C4E1A3880F400563C8D /* luggage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55991C4D1A3880F400563C8D /* luggage.jpg */; };
 		5D06C67D19D8CFFE0082F2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */; };
 		5D06C67F19D8CFFE0082F2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C67E19D8CFFE0082F2DE /* ViewController.swift */; };
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55991C4B1A37FAD000563C8D /* cody.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cody.jpg; sourceTree = "<group>"; };
+		55991C4D1A3880F400563C8D /* luggage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luggage.jpg; sourceTree = "<group>"; };
 		5D06C67719D8CFFE0082F2DE /* Lesson01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C67B19D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,8 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */,
+				55991C4B1A37FAD000563C8D /* cody.jpg */,
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
+				55991C4D1A3880F400563C8D /* luggage.jpg */,
 				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
 			);
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
+				55991C4C1A37FAD000563C8D /* cody.jpg in Resources */,
+				55991C4E1A3880F400563C8D /* luggage.jpg in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +401,7 @@
 				5D06C69819D8CFFE0082F2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D06C69919D8CFFE0082F2DE /* Build configuration list for PBXNativeTarget "Lesson01Tests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +410,7 @@
 				5D06C69B19D8CFFE0082F2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
