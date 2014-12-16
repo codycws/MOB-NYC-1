@@ -1,6 +1,43 @@
 // Lesson 03 playground
 
 import Foundation
+var name = "Cody"
+var age = 41
+println(name)
+println("Hello \(name), you are \(age) years old!")
+
+if age > 21 {
+    println("You can drink!")
+}
+if age > 18 {
+    println("You can vote!")
+}
+
+if age > 16 {
+    println("You can drive!")
+}
+println(name)
+
+
+
+if age >= 21 {
+    println("You can drive, vote and drink (but not at the same time!")
+} else if age >= 18 {
+     print("You can drive and vote")
+} else  if age >= 16 {
+    println("you can drive")
+}
+
+func helloWorld() {
+    println("hello function")
+}
+helloWorld()
+helloWorld()
+
+
+
+
+
 
 // TODO: Create two variables, name and age. Name is a string, age is an integer.
 
