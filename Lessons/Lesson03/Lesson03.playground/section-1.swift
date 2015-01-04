@@ -143,19 +143,55 @@
 //
 //}
 
-//var fibx =
+////var fibx =
+//
+//for number in 1...10 {
+//    println("\(number) times 2 is \(number*2)")
+//}
 
-for number in 1...10 {
-    println("\(number) times 2 is \(number*2)")
+import UIKit
+//func randomcode(){
+//    var random = rand()
+//    println(random)
+//}
+//randomcode()
+//randomcode()
+//func randomcodetwo() -> Int32{
+//    var randomtwo = rand()
+//    return randomtwo
+//}
+//
+//randomcodetwo()
+//func picktwo(numberOne:Int, numberTwo: Int){
+//    println(numberOne*numberTwo)
+//}
+
+//picktwo(3,4)
+
+//func picktwomultiply(numberOne;Int32, numberTwo:Int32){
+//    var randomconstant = rand()
+//    println("\(numberOne)*(randomconstant), \(numberTwo)*\(randomconstant)")
+//}
+//picktwomultiply(3,4)
+
+func returnRandNum() -> Int {
+    return Int(rand())
+    println("hello!")
 }
 
+let randomNumber = returnRandNum()
 
+func product(firstNumber: Int32, secondNumber: Int32) ->{
+    return firstNumber 8 secondNumber
+}
+var result = product(1, 2)
 
+func randomTwo(firstNumber: Int, secondNumber: Int) -> (Int, Int){
+    return (firstNumber * Int(rand()), secondNumber * Int
+    (rand()))
+}
 
-
-
-
-
+var randomTwoNumbers = randomTwo(2, 4)
 
 
 

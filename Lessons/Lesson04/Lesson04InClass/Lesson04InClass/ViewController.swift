@@ -2,11 +2,25 @@ import UIKit
 
 class ViewController: UIViewController {
   
-    @IBOutlet var label: UILabel!
-    
-    @IBAction func didTapButton(sender: AnyObject) {
-       label.text = "Tapped!"
+    @IBAction func didSwipe(sender: AnyObject) {
+        label.text = "Swipe!"
     }
+  
+
+        @IBAction func didTapButton(sender: AnyObject) {
+            println("we made it")
+            var one = textField.text.toInt()
+            var two = textFieldTwo.text.toInt()
+            if let o = one {
+                if let t = two {
+                    label.text = "\(o * (t/100))"}}
+    }
+    
+
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var textFieldTwo: UITextField!
     
     
     

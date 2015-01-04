@@ -16,40 +16,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbs-ys-hAz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qq-0l-h1Q">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="didTapButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TSF-4n-5GT"/>
+                                    <action selector="didTapButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WVg-4c-rgb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81K-CJ-ByZ">
-                                <rect key="frame" x="279" y="330" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="42" id="Bxo-cT-ygy"/>
-                                    <constraint firstAttribute="height" constant="21" id="HYL-Sq-HDR"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcd-F6-VeD">
+                                <rect key="frame" x="266" y="346" width="69" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ejn-YC-cok">
+                                <rect key="frame" x="210" y="159" width="181" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="BIY-s1-oih"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NmY-Sv-SJq">
+                                <rect key="frame" x="210" y="218" width="181" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="o42-sL-t9O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="81K-CJ-ByZ" secondAttribute="centerX" id="GZI-rL-4JW"/>
-                            <constraint firstItem="81K-CJ-ByZ" firstAttribute="top" secondItem="vbs-ys-hAz" secondAttribute="bottom" constant="15" id="jGr-Dh-y2o"/>
-                            <constraint firstAttribute="centerY" secondItem="vbs-ys-hAz" secondAttribute="centerY" id="tr3-ik-6LP"/>
-                            <constraint firstAttribute="centerX" secondItem="vbs-ys-hAz" secondAttribute="centerX" id="zzH-pc-AvE"/>
+                            <constraint firstItem="Ejn-YC-cok" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="210" id="4Rx-ff-YEU"/>
+                            <constraint firstItem="Ejn-YC-cok" firstAttribute="top" secondItem="Mcd-F6-VeD" secondAttribute="bottom" constant="-208" id="Ghg-UE-ti0"/>
+                            <constraint firstAttribute="centerX" secondItem="8Qq-0l-h1Q" secondAttribute="centerX" id="HYM-bZ-Xuf"/>
+                            <constraint firstAttribute="centerX" secondItem="Mcd-F6-VeD" secondAttribute="centerX" id="JZj-yt-akI"/>
+                            <constraint firstItem="Mcd-F6-VeD" firstAttribute="top" secondItem="8Qq-0l-h1Q" secondAttribute="bottom" constant="31" id="Lye-vd-frX"/>
+                            <constraint firstItem="NmY-Sv-SJq" firstAttribute="top" secondItem="Ejn-YC-cok" secondAttribute="bottom" constant="29" id="PVb-97-Etf"/>
+                            <constraint firstAttribute="centerY" secondItem="8Qq-0l-h1Q" secondAttribute="centerY" id="cYO-eb-oTR"/>
+                            <constraint firstItem="NmY-Sv-SJq" firstAttribute="centerX" secondItem="Ejn-YC-cok" secondAttribute="centerX" id="dxk-2R-HNp"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="mnY-c5-LOi" appends="YES" id="1Nw-Yb-adA"/>
+                        </connections>
                     </view>
                     <connections>
-                        <outletCollection property="label" destination="81K-CJ-ByZ" collectionClass="NSMutableArray" id="9hG-2f-3ER"/>
+                        <outlet property="label" destination="Mcd-F6-VeD" id="phj-3f-99F"/>
+                        <outlet property="textField" destination="Ejn-YC-cok" id="kAC-Do-Fli"/>
+                        <outlet property="textFieldTwo" destination="NmY-Sv-SJq" id="AaC-LK-cxu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="mnY-c5-LOi">
+                    <connections>
+                        <action selector="didSwipe:" destination="vXZ-lx-hvc" id="aRi-jO-ERC"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
         </scene>
     </scenes>
