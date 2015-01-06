@@ -6,27 +6,27 @@
 //println(name)
 //println("Hello \(name), you are \(age) years old!")
 
-//if age > 21 {
-//    println("You can drink!")
-//}
-//if age > 18 {
-//    println("You can vote!")
-//}
-//
-//if age > 16 {
-//    println("You can drive!")
-//}
+if age > 21 {
+    println("You can drink!")
+}
+if age > 18 {
+    println("You can vote!")
+}
+
+if age > 16 {
+    println("You can drive!")
+}
 //println(name)
 //
 //
 //
-//if age >= 21 {
-//    println("You can drive, vote and drink (but not at the same time!")
-//} else if age >= 18 {
-//     print("You can drive and vote")
-//} else  if age >= 16 {
-//    println("you can drive")
-//}
+if age >= 21 {
+    println("You can drive, vote and drink (but not at the same time!")
+} else if age >= 18 {
+     print("You can drive and vote")
+} else  if age >= 16 {
+    println("you can drive")
+}
 //
 //func helloWorld() {
 //    println("hello function")
@@ -174,26 +174,26 @@ import UIKit
 //}
 //picktwomultiply(3,4)
 
-func returnRandNum() -> Int {
-    return Int(rand())
-    println("hello!")
-}
-
-let randomNumber = returnRandNum()
-
-func product(firstNumber: Int32, secondNumber: Int32) ->{
-    return firstNumber 8 secondNumber
-}
-var result = product(1, 2)
-
-func randomTwo(firstNumber: Int, secondNumber: Int) -> (Int, Int){
-    return (firstNumber * Int(rand()), secondNumber * Int
-    (rand()))
-}
-
-var randomTwoNumbers = randomTwo(2, 4)
-
-
+//func returnRandNum() -> Int {
+//    return Int(rand())
+//    println("hello!")
+//}
+//
+//let randomNumber = returnRandNum()
+//
+//func product(firstNumber: Int32, secondNumber: Int32) ->{
+//    return firstNumber 8 secondNumber
+//}
+//var result = product(1, 2)
+//
+//func randomTwo(firstNumber: Int, secondNumber: Int) -> (Int, Int){
+//    return (firstNumber * Int(rand()), secondNumber * Int
+//    (rand()))
+//}
+//
+//var randomTwoNumbers = randomTwo(2, 4)
+//
+//
 
 
 

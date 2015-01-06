@@ -31,13 +31,13 @@
 // BONUS TODO: Write a function that takes in two strings and returns a boolean indicating whether the two strings
 
 // BONUS TODO: Write a function that accepts two parameters, a string and a function that accepts a string and returns a string. Print the result of passing the string into the function 10 times.
-//
+
 //var hello = "Hello World"
 //for i in 0...9{
 //    println(hello)
 //
 //}
-
+//
 //func hello() {
 //    var helloWorld = "Hello World"
 //    for i in 0...9{
@@ -52,26 +52,27 @@
 
 
 
-
-
+//
+//
 //func printhello() {
 //    var hello = "Hello World"
 //    for i in 0...4{
 //        println(hello)
-////
-////func helloWorldToName(name:
-////    String) {
-////    var string = "Hello \(name)"
-////    println(string)
-//
+//    }
+
+//func helloWorldToName(name:
+//    String) {
+//    var string = "Hello \(name)"
+//    println(string)
+//    }
 //
 //func helloWorld(name: String) {
 //    println("Hello \(name)")
 //}
 //helloWorld("Cody")
 //helloWorld("Dave")
-//
-//
+
+
 ////func formattedHelloWorldTextToName(name: String) -> (String, String){
 ////    return "Hello \(name), have a great class!"
 ////}
@@ -92,6 +93,3 @@
 //var lengths = lengthOfNames("Rudd", "Travis")
 //println(lengths.0)
 //println(lengths.1)
-//
-//
-//
