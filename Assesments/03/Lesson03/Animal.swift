@@ -6,6 +6,10 @@
 //  Copyright (c) 2014 General Assembly. All rights reserved.
 //
 
+/*
+TODO five: Create a subclass of the Animal class, add an instance of that object to be displayed in the table view, then change the displayed string of the subclass to your liking. Your subclass should override the function 'prettyAnimalName' (i.e. you should only need to modify the below array, not the table view code)
+*/
+
 import UIKit
 
 class Animal: NSObject {
@@ -17,5 +21,10 @@ class Animal: NSObject {
     
     func prettyAnimalName() -> String {
         return "Animal name: " + self.name
+    }
+}
+class Dog: Animal {
+    override func prettyAnimalName() -> String {
+        return "Some Exciting Dog!"
     }
 }

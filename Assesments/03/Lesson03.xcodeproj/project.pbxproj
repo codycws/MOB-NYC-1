@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554950D81A6C5B59000C6096 /* PresentModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554950D71A6C5B59000C6096 /* PresentModalViewController.swift */; };
 		5DCED98919D8DC9B00DE1DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED98819D8DC9B00DE1DC2 /* AppDelegate.swift */; };
 		5DCED98B19D8DC9B00DE1DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED98A19D8DC9B00DE1DC2 /* ViewController.swift */; };
 		5DCED98E19D8DC9B00DE1DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCED98C19D8DC9B00DE1DC2 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		554950D71A6C5B59000C6096 /* PresentModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentModalViewController.swift; sourceTree = "<group>"; };
 		5DCED98319D8DC9B00DE1DC2 /* Lesson03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCED98719D8DC9B00DE1DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCED98819D8DC9B00DE1DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		5DCED97A19D8DC9B00DE1DC2 = {
 			isa = PBXGroup;
 			children = (
+				554950D71A6C5B59000C6096 /* PresentModalViewController.swift */,
 				5DCED98519D8DC9B00DE1DC2 /* Lesson03 */,
 				5DCED99B19D8DC9B00DE1DC2 /* Lesson03Tests */,
 				5DCED98419D8DC9B00DE1DC2 /* Products */,
@@ -164,9 +167,11 @@
 				TargetAttributes = {
 					5DCED98219D8DC9B00DE1DC2 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = KHRH8K6SRF;
 					};
 					5DCED99719D8DC9B00DE1DC2 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = KHRH8K6SRF;
 						TestTargetID = 5DCED98219D8DC9B00DE1DC2;
 					};
 				};
@@ -216,6 +221,7 @@
 			files = (
 				5DCED9A919D8DF0800DE1DC2 /* ArrayTableViewController.swift in Sources */,
 				5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */,
+				554950D81A6C5B59000C6096 /* PresentModalViewController.swift in Sources */,
 				5DCED98B19D8DC9B00DE1DC2 /* ViewController.swift in Sources */,
 				5DCED98919D8DC9B00DE1DC2 /* AppDelegate.swift in Sources */,
 			);
@@ -352,6 +358,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -363,6 +371,7 @@
 				INFOPLIST_FILE = Lesson03Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson03.app/Lesson03";
 			};
 			name = Debug;
@@ -371,6 +380,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -378,6 +389,7 @@
 				INFOPLIST_FILE = Lesson03Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson03.app/Lesson03";
 			};
 			name = Release;
@@ -401,6 +413,7 @@
 				5DCED9A419D8DC9B00DE1DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCED9A519D8DC9B00DE1DC2 /* Build configuration list for PBXNativeTarget "Lesson03Tests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +422,7 @@
 				5DCED9A719D8DC9B00DE1DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

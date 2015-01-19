@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+    @IBOutlet var swipeRight: UISwipeGestureRecognizer!
+
     
     /*
     TODO one: Hook up a swipeable area on the home screen that must present a modal dialog when swiped. You must create the modal dialog and present it in CODE (not the storyboard).
