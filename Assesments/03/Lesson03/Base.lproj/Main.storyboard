@@ -33,12 +33,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMl-Di-GNm">
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMl-Di-GNm">
                                 <rect key="frame" x="154" y="187" width="294" height="154"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="294" id="PIO-qg-BJt"/>
+                                    <constraint firstAttribute="width" constant="294" id="mf4-Mh-fQf"/>
                                 </constraints>
                                 <string key="text">TODO: When this is swiped horizontally,
 a modal should appear.
@@ -53,8 +53,7 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AG3-bY-Vru">
                                 <rect key="frame" x="236" y="382" width="128" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="128" id="DB9-Jg-gkA"/>
-                                    <constraint firstAttribute="height" constant="30" id="dwV-ga-14C"/>
+                                    <constraint firstAttribute="height" constant="30" id="wNg-xQ-ie4"/>
                                 </constraints>
                                 <state key="normal" title="Display Table View">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -67,11 +66,13 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="AG3-bY-Vru" secondAttribute="centerX" id="0zs-lK-Y2n"/>
-                            <constraint firstItem="NMl-Di-GNm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="154" id="FLL-Zu-RtD"/>
-                            <constraint firstItem="NMl-Di-GNm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="123" id="Pem-ff-q1Z"/>
-                            <constraint firstAttribute="centerY" secondItem="AG3-bY-Vru" secondAttribute="centerY" constant="-97" id="RgT-FV-BaV"/>
-                            <constraint firstItem="AG3-bY-Vru" firstAttribute="top" secondItem="NMl-Di-GNm" secondAttribute="bottom" constant="41" id="VC9-rE-h8C"/>
+                            <constraint firstItem="NMl-Di-GNm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="123" id="ACi-Kl-vZx"/>
+                            <constraint firstAttribute="centerX" secondItem="NMl-Di-GNm" secondAttribute="centerX" id="Dd7-WR-WeE"/>
+                            <constraint firstItem="AG3-bY-Vru" firstAttribute="top" secondItem="NMl-Di-GNm" secondAttribute="bottom" constant="41" id="Gmr-wD-FiY"/>
+                            <constraint firstItem="AG3-bY-Vru" firstAttribute="top" secondItem="NMl-Di-GNm" secondAttribute="bottom" constant="41" id="OaR-h4-Sh9"/>
+                            <constraint firstItem="AG3-bY-Vru" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="dna-jG-TjG"/>
+                            <constraint firstItem="NMl-Di-GNm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="123" id="lSE-q8-Hms"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="AG3-bY-Vru" secondAttribute="bottom" constant="188" id="xPI-63-O4V"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hzY-Hy-RMA"/>
