@@ -7,7 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
+<<<<<<< HEAD
 	<string>cody.$(PRODUCT_NAME:rfc1034identifier)</string>
+=======
+	<string>com.ga.$(PRODUCT_NAME:rfc1034identifier)</string>
+>>>>>>> 55f1a21b75189d5e8f480a4ac1c25e16da6ea937
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
