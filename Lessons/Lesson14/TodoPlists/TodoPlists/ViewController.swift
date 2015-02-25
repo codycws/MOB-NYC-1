@@ -55,5 +55,7 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
         cell.textLabel?.text = stringAtSpecifiedIndex
         return cell
     }
+    
+    NSFileManager.default().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
 }
 

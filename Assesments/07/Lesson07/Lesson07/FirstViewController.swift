@@ -12,5 +12,13 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
+        self.myText.text = NSUserDefaults.standardUserDefaults().objectForKey("test_string") as String
+        }
+    
+    
+    @IBOutlet weak var myText: UITextView!
+    
 }
+    
+    
+    
